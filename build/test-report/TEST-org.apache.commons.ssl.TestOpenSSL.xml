@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="dpilipenko-book" name="org.apache.commons.ssl.TestOpenSSL" skipped="0" tests="5" time="4.938" timestamp="2017-08-31T16:13:28">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="lib" value="D:\Projects\not-yet-commons-ssl\lib" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_51\jre\classes" />
+    <property name="test-classes" value="D:\Projects\not-yet-commons-ssl\build/test-classes" />
+    <property name="TODAY" value="August 31 2017" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant" />
+    <property name="java.runtime.version" value="1.8.0_51-b16" />
+    <property name="user.name" value="dpilipenko" />
+    <property name="date" value="GMT:2017-08-31/16:13:25" />
+    <property name="user.language" value="ru" />
+    <property name="build" value="D:\Projects\not-yet-commons-ssl\build" />
+    <property name="test.report.dir" value="D:\Projects\not-yet-commons-ssl\build/test-report" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin" />
+    <property name="ant.project.default-target" value="jar" />
+    <property name="ant.project.name" value="not-yet-commons-ssl" />
+    <property name="DSTAMP" value="20170831" />
+    <property name="java.version" value="1.8.0_51" />
+    <property name="classes" value="D:\Projects\not-yet-commons-ssl\build/classes" />
+    <property name="user.timezone" value="GMT" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="D:\Projects\not-yet-commons-ssl\src\java" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_51\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="D:\Projects\not-yet-commons-ssl\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.51-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\dpilipenko" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\dpilipenko\product\12.1.0\dbhome_1\bin;C:\app\root\product\12.1.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_51\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\OpenVPN\bin;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Cloud Foundry;C:\Program Files\nodejs\;C:\Users\dpilipenko\AppData\Local\Microsoft\WindowsApps;C:\Users\dpilipenko\AppData\Roaming\npm;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.file.not-yet-commons-ssl" value="D:\Projects\not-yet-commons-ssl\build.xml" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=D:\Projects\not-yet-commons-ssl\junittestcases596828734729514010.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Projects\not-yet-commons-ssl\build\test-report\IGNORETHIS.xml crashfile=D:\Projects\not-yet-commons-ssl\junitvmwatcher7793854115593662419.properties propsfile=D:\Projects\not-yet-commons-ssl\junit7988860520601616635.properties" />
+    <property name="java.class.path" value="D:\Projects\not-yet-commons-ssl\lib\bcprov-ext-jdk15on-151.jar;D:\Projects\not-yet-commons-ssl\lib\commons-codec-1.9.jar;D:\Projects\not-yet-commons-ssl\lib\commons-logging-1.0.4.jar;D:\Projects\not-yet-commons-ssl\lib\httpclient-4.5.2.jar;D:\Projects\not-yet-commons-ssl\lib\httpcore-4.4.4.jar;D:\Projects\not-yet-commons-ssl\lib\junit4-4.11.jar;D:\Projects\not-yet-commons-ssl\lib\log4j-1.2.13.jar;D:\Projects\not-yet-commons-ssl\lib\mockito-all-1.9.5.jar;D:\Projects\not-yet-commons-ssl;D:\Projects\not-yet-commons-ssl\build\classes;D:\Projects\not-yet-commons-ssl\build\test-classes;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib\ant-junit4.jar" />
+    <property name="ant.file.type.not-yet-commons-ssl" value="file" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="TSTAMP" value="1613" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="test-jar-file" value="not-yet-commons-ssl-tests.jar" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="test-src" value="D:\Projects\not-yet-commons-ssl\src\test" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\DPILIP~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="javadocs" value="D:\Projects\not-yet-commons-ssl\build/javadocs" />
+    <property name="jar-file" value="not-yet-commons-ssl.jar" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\Projects\not-yet-commons-ssl" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="D:\Projects\not-yet-commons-ssl" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.1.3\lib\ant\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="rmic.includes" value="**/*RMI.class" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="org.apache.commons.ssl.TestOpenSSL" name="testDESBytes" time="1.352" />
+  <testcase classname="org.apache.commons.ssl.TestOpenSSL" name="testDES3Bytes" time="2.202" />
+  <testcase classname="org.apache.commons.ssl.TestOpenSSL" name="testRC2Bytes" time="0.96" />
+  <testcase classname="org.apache.commons.ssl.TestOpenSSL" name="testAES128Bytes" time="0.408" />
+  <testcase classname="org.apache.commons.ssl.TestOpenSSL" name="testDecryptPBE" time="0.009">
+    <error message="Illegal key size" type="java.security.InvalidKeyException">java.security.InvalidKeyException: Illegal key size
+	at javax.crypto.Cipher.checkCryptoPerm(Cipher.java:1039)
+	at javax.crypto.Cipher.implInit(Cipher.java:805)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:864)
+	at javax.crypto.Cipher.init(Cipher.java:1396)
+	at javax.crypto.Cipher.init(Cipher.java:1327)
+	at org.apache.commons.ssl.PKCS8Key.generateCipher(PKCS8Key.java:445)
+	at org.apache.commons.ssl.OpenSSL.decrypt(OpenSSL.java:165)
+	at org.apache.commons.ssl.OpenSSL.decrypt(OpenSSL.java:94)
+	at org.apache.commons.ssl.TestOpenSSL.process(TestOpenSSL.java:125)
+	at org.apache.commons.ssl.TestOpenSSL.process(TestOpenSSL.java:104)
+	at org.apache.commons.ssl.TestOpenSSL.testDecryptPBE(TestOpenSSL.java:78)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

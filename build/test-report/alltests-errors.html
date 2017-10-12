@@ -1,0 +1,46 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: All Errors</title>
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body onload="open('allclasses-frame.html','classListFrame')">
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>All Errors</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="org/apache/commons/ssl/4_TestKeyMaterial.html">TestKeyMaterial</a></td><td><a name="testKeystores"></a><a href="org/apache/commons/ssl/4_TestKeyMaterial.html#testKeystores">testKeystores</a></td><td>Error</td><td>failed to extract any certificates or private keys - maybe bad password?<br>
+<br>
+<code>java.security.KeyStoreException: failed to extract any certificates or private keys - maybe bad password?<br>	at org.apache.commons.ssl.KeyStoreBuilder.parse(KeyStoreBuilder.java:457)<br>	at org.apache.commons.ssl.KeyStoreBuilder.parse(KeyStoreBuilder.java:321)<br>	at org.apache.commons.ssl.KeyStoreBuilder.build(KeyStoreBuilder.java:113)<br>	at org.apache.commons.ssl.KeyMaterial.&lt;init&gt;(KeyMaterial.java:179)<br>	at org.apache.commons.ssl.KeyMaterial.&lt;init&gt;(KeyMaterial.java:82)<br>	at org.apache.commons.ssl.KeyMaterial.&lt;init&gt;(KeyMaterial.java:132)<br>	at org.apache.commons.ssl.KeyMaterial.&lt;init&gt;(KeyMaterial.java:107)<br>	at org.apache.commons.ssl.TestKeyMaterial.examineKeyStore(TestKeyMaterial.java:61)<br>	at org.apache.commons.ssl.TestKeyMaterial.testKeystores(TestKeyMaterial.java:38)<br>
+</code></td><td>0.652</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="org/apache/commons/ssl/5_TestOpenSSL.html">TestOpenSSL</a></td><td><a name="testDecryptPBE"></a><a href="org/apache/commons/ssl/5_TestOpenSSL.html#testDecryptPBE">testDecryptPBE</a></td><td>Error</td><td>Illegal key size<br>
+<br>
+<code>java.security.InvalidKeyException: Illegal key size<br>	at javax.crypto.Cipher.checkCryptoPerm(Cipher.java:1039)<br>	at javax.crypto.Cipher.implInit(Cipher.java:805)<br>	at javax.crypto.Cipher.chooseProvider(Cipher.java:864)<br>	at javax.crypto.Cipher.init(Cipher.java:1396)<br>	at javax.crypto.Cipher.init(Cipher.java:1327)<br>	at org.apache.commons.ssl.PKCS8Key.generateCipher(PKCS8Key.java:445)<br>	at org.apache.commons.ssl.OpenSSL.decrypt(OpenSSL.java:165)<br>	at org.apache.commons.ssl.OpenSSL.decrypt(OpenSSL.java:94)<br>	at org.apache.commons.ssl.TestOpenSSL.process(TestOpenSSL.java:125)<br>	at org.apache.commons.ssl.TestOpenSSL.process(TestOpenSSL.java:104)<br>	at org.apache.commons.ssl.TestOpenSSL.testDecryptPBE(TestOpenSSL.java:78)<br>
+</code></td><td>0.009</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="org/apache/commons/ssl/6_TestPKCS8Key.html">TestPKCS8Key</a></td><td><a name="testDSA"></a><a href="org/apache/commons/ssl/6_TestPKCS8Key.html#testDSA">testDSA</a></td><td>Error</td><td>Illegal key size<br>
+<br>
+<code>java.security.InvalidKeyException: Illegal key size<br>	at javax.crypto.Cipher.checkCryptoPerm(Cipher.java:1039)<br>	at javax.crypto.Cipher.implInit(Cipher.java:805)<br>	at javax.crypto.Cipher.chooseProvider(Cipher.java:864)<br>	at javax.crypto.Cipher.init(Cipher.java:1396)<br>	at javax.crypto.Cipher.init(Cipher.java:1327)<br>	at org.apache.commons.ssl.PKCS8Key.generateCipher(PKCS8Key.java:445)<br>	at org.apache.commons.ssl.PKCS8Key.decrypt(PKCS8Key.java:459)<br>	at org.apache.commons.ssl.PKCS8Key.opensslDecrypt(PKCS8Key.java:373)<br>	at org.apache.commons.ssl.PKCS8Key.&lt;init&gt;(PKCS8Key.java:195)<br>	at org.apache.commons.ssl.TestPKCS8Key.checkFiles(TestPKCS8Key.java:43)<br>	at org.apache.commons.ssl.TestPKCS8Key.testDSA(TestPKCS8Key.java:16)<br>
+</code></td><td>0.015</td>
+</tr>
+<tr valign="top" class="Error">
+<td><a href="org/apache/commons/ssl/6_TestPKCS8Key.html">TestPKCS8Key</a></td><td><a name="testRSA"></a><a href="org/apache/commons/ssl/6_TestPKCS8Key.html#testRSA">testRSA</a></td><td>Error</td><td>Illegal key size<br>
+<br>
+<code>java.security.InvalidKeyException: Illegal key size<br>	at javax.crypto.Cipher.checkCryptoPerm(Cipher.java:1039)<br>	at javax.crypto.Cipher.implInit(Cipher.java:805)<br>	at javax.crypto.Cipher.chooseProvider(Cipher.java:864)<br>	at javax.crypto.Cipher.init(Cipher.java:1396)<br>	at javax.crypto.Cipher.init(Cipher.java:1327)<br>	at org.apache.commons.ssl.PKCS8Key.generateCipher(PKCS8Key.java:445)<br>	at org.apache.commons.ssl.PKCS8Key.decrypt(PKCS8Key.java:459)<br>	at org.apache.commons.ssl.PKCS8Key.opensslDecrypt(PKCS8Key.java:373)<br>	at org.apache.commons.ssl.PKCS8Key.&lt;init&gt;(PKCS8Key.java:195)<br>	at org.apache.commons.ssl.TestPKCS8Key.checkFiles(TestPKCS8Key.java:43)<br>	at org.apache.commons.ssl.TestPKCS8Key.testRSA(TestPKCS8Key.java:21)<br>
+</code></td><td>0.005</td>
+</tr>
+</table>
+</body>
+</html>
